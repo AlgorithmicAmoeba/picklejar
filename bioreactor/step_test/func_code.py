@@ -1,6 +1,20 @@
 # first line: 12
 @PickleJar.pickle(path='bioreactor')
 def step_test(percent, dt):
+    """Does a simulation with given input changes and returns the outputs vs time
+
+    Parameters
+    ----------
+    percent : numpy.array
+        A (2,) array containing the percentage changes for the two inputs
+
+    dt : the simulation period
+
+    Returns
+    -------
+    ts, ys : numpy.array
+        The times and outputs of the simulation
+    """
     # Simulation set-up
     end_time = 300
     ts = numpy.linspace(0, end_time, int(end_time//dt))
