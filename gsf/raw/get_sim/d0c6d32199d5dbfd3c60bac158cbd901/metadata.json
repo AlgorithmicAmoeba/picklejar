@@ -1,1 +1,1 @@
-{"duration": 218.1122715473175, "input_args": {"N_particles": "256", "dt_control": "0.1", "dt_predict": "0.1", "monte_carlo": "0", "end_time": "500", "pf": "False"}}
+{"duration": 208.28648138046265, "input_args": {"N_particles": "256", "dt_control": "0.1", "dt_predict": "0.1", "monte_carlo": "0", "end_time": "500", "pf": "False"}}

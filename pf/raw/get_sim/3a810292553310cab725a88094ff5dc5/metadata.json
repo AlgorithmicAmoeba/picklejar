@@ -1,1 +1,0 @@
-{"duration": 59.68167233467102, "input_args": {"N_particles": "724", "dt_control": "0.19622516632080078", "dt_predict": "0.19622516632080078", "monte_carlo": "0", "end_time": "500", "pf": "True"}}
